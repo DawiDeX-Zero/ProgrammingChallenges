@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+        <title>Kalkulator IP</title>
+        <link rel=stylesheet href="./style.css">
+    </head>
+    <body>
+		<header>
+			<h1>Kalkulator IP</h1>
+			<button class="f-right btn_calc" onclick="Calc()">Działaj</button>
+		</header>
+        <div class="form-wrapper">
+            <form name="form_ip">
+                <div id="input_ipAddress" class="address-wrapper">
+					<span class="text_address">Adres IP</span>
+					<div class="f-right">
+						<input name="ip1" class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+						<span>.</span>
+						<input name="ip2" class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+						<span>.</span>
+						<input name="ip3" class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+						<span>.</span>
+						<input name="ip4" class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+					</div>
+					<div class="f-clear"></div>
+                </div>
+                <div id="input_subnetMask" class="address-wrapper">
+                    <span class="text_address">Maska podsieci</span>
+					<div class="f-right">
+						<input name="mask1" class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+						<span>.</span>
+						<input name="mask2" class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+						<span>.</span>
+						<input name="mask3"class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+						<span>.</span>
+						<input name="mask4"class="ip-input" type="number" min="0" max="255" maxlength="3"></input>
+					</div>
+					<div class="f-clear"></div>
+                </div>
+            </form>
+        </div>
+        <div class="calculation-wrapper">
+            <div class="address-wrapper">
+                <p class="text_address f-left">Adres sieci</p>
+                <p class="f-right" id="ip_network"></p>
+            </div>
+            <div class="address-wrapper">
+                <p class="text_address f-left">Adres rozgłoszeniowy</p>
+                <p class="f-right" id="ip_broadcast"></p>
+            </div>
+			<div class="address-wrapper">
+                <p class="text_address f-left">Liczba hostów</p>
+                <p class="f-right" id="host_amount"></p>
+            </div>
+            <div class="address-wrapper">
+                <p class="text_address f-left">Adres pierwszego klienta</p>
+                <p class="f-right" id="ip_firsthost"></p>
+            </div>
+            <div class="address-wrapper">
+                <p class="text_address f-left">Adres ostatniego klienta</p>
+                <p class="f-right" id="ip_lasthost"></p>
+            </div>
+        </div>
+    </body>
+	<script src="ipcalculation.js"></script>
+	<script src="languagemodule.js"></script>
+<html>

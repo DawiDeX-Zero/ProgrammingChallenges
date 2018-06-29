@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin-ext');
+body{
+	margin-left:20vw;
+	margin-right:20vw;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+input{
+    width:100px;
+}
+.form-wrapper{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 3em;
+	margin-top:1em;
+}
+header{
+	height:10vh;
+	width:100%;
+}
+h1{
+    text-align: center;
+	display:inline-block;
+	margin-top:0px;	
+
+}
+.btn_calc{
+	display:inline-block;
+	height:50%;
+	margin-top:0.15em;
+	border:1px solid #000f30;
+	border-radius:12%;
+	color: #ffffff; 
+	background-color: #002169;  
+} 
+ 
+.btn_calc:hover{ 
+  color: #ffffff; 
+  background-color: #002C8C; 
+  border-color: #000F30; 
+}
+.address-wrapper{
+    width: max-content;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.address-wrapper span{
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	line-height: 2em;
+}
+.ip-input::-webkit-outer-spin-button,
+.ip-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ip-input{
+	-moz-appearance:textfield;
+	border:2px solid #000F30;
+}
+.text_address{
+    font-size:18px;
+}
+
+.calculation-wrapper{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+	font-size:18px;
+}
+.calculation-wrapper p{
+	text-align:center;
+}
+.f-right{
+	float: right;
+}
+.f-left{
+	float: left;
+}
+.f-clear{
+	clear:both;
+}
+p:last-child{
+	font-weight:bold;
+}
+.address-wrapper p{
+	display:inline-block;
+}
+.address-wrapper p:first-child{
+	margin-left:25%;
+}
+.address-wrapper p:last-child{
+	margin-right:25%;
+}
