@@ -8,3 +8,4 @@ My solutions for tasks from [that list](https://i.warosu.org/data/g/img/0555/27/
 5. Fibonacci Sequence([PHP](https://gist.github.com/DawiDeX-Zero/2c97e452ea23eed3570404e2fe751c2b))
 6. Sorting Algorithms([C#](SortingAlgorithms-csharp/))
 7. RPN Calculator([Python](https://gist.github.com/DawiDeX-Zero/e47a38be563c998d39a46a4dd625ac0a))
+8. Ulam Spiral Image Generator([Python](https://gist.github.com/DawiDeX-Zero/beca9f81c811311f40d49d51c2ba15ea))
