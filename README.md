@@ -9,3 +9,6 @@ My solutions for tasks from [that list](https://i.warosu.org/data/g/img/0555/27/
 6. Sorting Algorithms([C#](SortingAlgorithms-csharp/))
 7. RPN Calculator([Python](https://gist.github.com/DawiDeX-Zero/e47a38be563c998d39a46a4dd625ac0a))
 8. Ulam Spiral Image Generator([Python](https://gist.github.com/DawiDeX-Zero/beca9f81c811311f40d49d51c2ba15ea))
+9. Voronoi Diagram Image Generator([Python](https://gist.github.com/DawiDeX-Zero/b12adc27196b5f94eacab87776dbdd89))
+10. Benford Law Comparer([Python](https://gist.github.com/DawiDeX-Zero/8ec067676902c735114ed0eefb9b3199))
+11. Simple Cryptography([Python](https://gist.github.com/DawiDeX-Zero/5babacf6ccb3f7c3d46be311a14adc53))
